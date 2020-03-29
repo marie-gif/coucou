@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">
+<title>exo1</title>
+<link rel="stylesheet" href="calculmoyenne.css">
+</head>
+<body>
+<h1>***Algorithme lancé***</h1><br>
+<h3>calculs statistiques</h3><br>
+<p> saisissez des nombres ou entrer un nombre 0 pour sortir </P><br>
+<input type="number" id="nombre" name="nombre" value="" >
+<input type="button" value="ok" onclick="affiche_text_et_compte()">
+
+<p id="entrees"></p>
+<p id="resultats"></p>
+
+<p>voulez vous recommencez</p>
+<input type="button" value="remise a zero" onclick="remise_a_zero()">
+<!-- le bouton remet le compteur a zero ET efface le message> -->
+
+
+<script src="calculmoyenne.js"></script>
+</body>
+</html>
